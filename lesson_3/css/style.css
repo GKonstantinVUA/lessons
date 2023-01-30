@@ -1,0 +1,230 @@
+@import url("reset.css");
+
+h1 {
+	color: rgb(224, 36, 234);
+}
+
+#mn-menu a {
+	color: red;
+}
+
+#sc-mm *,
+#sc-mm-cltr * {
+	color: rgb(136, 255, 0);
+}
+
+#sc-clrt-mm a,
+#sc-artcl-mm a {
+	color: rgb(0, 13, 255);
+}
+
+#sc-artcl-mm,
+#sc-clrt-mm {
+	color: brown;
+}
+
+.tkh-avtr * {
+	color: blueviolet;
+}
+
+.ft-tkh-pd-vn.tkh-kap-marw.tkh-dr {
+	color: rgb(189, 77, 17);
+}
+
+.pr-tkh-mn-col p {
+	color: cadetblue;
+}
+
+.hlcst-rzdl-otd .hlcst-pd-vn.hlcst-kap-marw {
+	color: rgb(100, 189, 12);
+}
+
+.hlcst-rzdl-otd .hlcst-pd-tw.hlcst-kap-marw {
+	color: rgb(232, 50, 186);
+}
+
+#articles-holocaust .hlcst-avtr-st * {
+	color: rgb(10, 97, 141);
+}
+
+.hlcst-mn-col+p {
+	color: rgb(21, 191, 171);
+}
+
+.hlcst-mn-col .hlcst-mn-col,
+.pr-hlcst-mn-col-otdl {
+	color: red;
+}
+
+.pr-tkh-ln-pgs a {
+	color: rgb(220, 9, 199);
+}
+
+div.hlcst-mn-col .hlsct-ln-stat a {
+	color: rgb(0, 13, 255);
+}
+
+.pr-hlcst-mn-col p {
+	color: chocolate;
+}
+
+
+.pr-hlcst-ln-pgsotd a {
+	color: aquamarine;
+}
+
+span.pr-hlcst-ln-pgs a {
+	color: rgb(106, 255, 0);
+}
+
+.hlcst-rzdl-otd .pr-hlcst-mn-col-otd>p {
+	color: red;
+}
+
+.pr-hlcst-otdln span.pr-hlcst-ln-pgs {
+	color: rgb(137, 14, 14);
+}
+
+.pr-kean-avt p,
+.pr-hlcst-otdln p {
+	color: rgb(10, 98, 63);
+}
+
+.pr-kean-avt .pr-kean-avt-tr a {
+	color: aqua;
+}
+
+.tx-kean-rvl-otd {
+	color: rgb(150, 10, 80);
+}
+
+.ft-kean-pd-vn {
+	color: darkviolet;
+}
+
+.ft-kean-pd-tw {
+	color: magenta;
+}
+
+.pr-kean-mn-str~p {
+	color: rgb(9, 159, 137);
+}
+
+.pr-kean-mn .pr-kean-mn-srtotd {
+	color: mediumvioletred;
+}
+
+.pr-kean-mn-str {
+	color: rgb(12, 174, 189);
+}
+
+[class*="-urvcol"] {
+	color: rgb(244, 8, 56);
+}
+
+.mnft-kob-rt .pvsft-kob-rt {
+	color: rgba(227, 101, 42, 0.798);
+}
+
+div .pdsft-kob-rt {
+	color: rgb(108, 217, 35);
+}
+
+.tx-kob-rv,
+.tx-kean-rv>p {
+	color: rgb(63, 157, 181);
+}
+
+.tdtx-kob-on,
+.tdtx-kean-on {
+	color: mediumvioletred;
+}
+
+.tdtx-kob-tw {
+	color: rgb(41, 182, 119);
+}
+
+div.pr-kob-mn~p {
+	color: rgb(189, 10, 10);
+}
+
+.pr-kean-col p {
+	color: rgb(0, 255, 81);
+}
+
+.pr-kean-col-pls+p {
+	color: rgb(38, 0, 255);
+}
+
+.pr-kob-mn-col,
+.pr-kean-mn-col {
+	color: rgb(189, 10, 10);
+}
+
+.pr-kean-colfrs-urv {
+	color: rgb(104, 174, 34);
+}
+
+[class*=colvtr-urv] {
+	color: rgb(0, 119, 255);
+}
+
+.sl-kob-str.sl-kobstr-col {
+	color: rgb(8, 128, 128);
+}
+
+.sl-kob .sl-kob-ln a {
+	color: chartreuse;
+}
+
+.zgl-vtr {
+	color: crimson;
+}
+
+.zgl-trw {
+	color: darkblue;
+}
+
+.zgl-fr {
+	color: deeppink;
+}
+
+.zgl-fv {
+	color: blueviolet;
+}
+
+.zgl-sx {
+	color: lightseagreen;
+}
+
+.kob-inr-zgl .kob-inr-vn {
+	color: cadetblue;
+}
+
+.kob-inr-zgl .kob-inr-vm {
+	color: blueviolet;
+}
+
+.cob-listul .cob-ullis.cob-ullisln {
+	color: coral;
+}
+
+[class*=-mnt-daf] {
+	color: aqua;
+}
+
+.ftr-int-mn a {
+	color: rgb(101, 60, 5);
+}
+
+.ftr-obs-inf p {
+	color: darkviolet;
+}
+
+.rzl-ftr-svz * {
+	color: cornflowerblue;
+}
+
+.cob-listul .cob-ullis.cob-ullisln a {
+	color: deeppink;
+}
