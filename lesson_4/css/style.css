@@ -1,0 +1,327 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,700;1,400&amp;display=swap');
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+		url('../fonts/CenturyGothic.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+		url('../fonts/CenturyGothic-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/CenturyGothic-Italic.woff2') format('woff2'),
+		url('../fonts/CenturyGothic-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geograph Edit';
+	src: url('../fonts/GeographEdit-Italic.woff2') format('woff2'),
+		url('../fonts/GeographEdit-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geograph';
+	src: url('../fonts/Geograph-Bold.woff2') format('woff2'),
+		url('../fonts/Geograph-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geograph';
+	src: url('../fonts/Geograph.woff2') format('woff2'),
+		url('../fonts/Geograph.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Zilla Slab';
+	src: url('../fonts/ZillaSlab-Bold.woff2') format('woff2'),
+		url('../fonts/ZillaSlab-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Zilla Slab';
+	src: url('../fonts/ZillaSlab-Italic.woff2') format('woff2'),
+		url('../fonts/ZillaSlab-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Zilla Slab';
+	src: url('../fonts/ZillaSlab-Regular.woff2') format('woff2'),
+		url('../fonts/ZillaSlab-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia-Italic.woff2') format('woff2'),
+		url('../fonts/Georgia-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia.woff2') format('woff2'),
+		url('../fonts/Georgia.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia-Bold.woff2') format('woff2'),
+		url('../fonts/Georgia-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body {
+	font: 400 22px "Georgia", serif;
+	white-space: normal;
+	line-height: 1.4;
+}
+
+#mn-nvg-hdr,
+.rzdl-trvl-mn a,
+.rzdl-tvmn-mn a,
+.ftr-int-mn a {
+	font: 400 20px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	color: #0319d7;
+	line-height: 1.5;
+}
+
+h1 {
+	font: 700 44px "Fira Sans", sans-serif;
+	color: #e90606;
+	word-spacing: 28px;
+	line-height: 3;
+}
+
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.trvl-nz-stt h2 {
+	font: 700 38px "Geograph", sans-serif;
+	line-height: 2;
+}
+
+.trvl-prg-mn h3 {
+	font: 700 26px "Geograph", sans-serif;
+	line-height: 2;
+}
+
+.trvl-artcl .trvl-nz-prg p {
+	font: 400 18px "Geograph", sans-serif;
+	line-height: 1.5;
+}
+
+.trvl-ft-oblg-pdg p,
+.trvl-osnv-ft-pds p {
+	font: 400 12px "Geograph", sans-serif;
+	text-align: left;
+	letter-spacing: 0.5px;
+	line-height: 2;
+}
+
+.trvl-ft-oblg-pdg .trvl-ftp-ds-phg p {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.trvl-prg-mn span.trvl-prg-mn-itlc {
+	text-decoration: underline;
+	font: italic 400 20px "Century Gothic", sans-serif;
+	color: blue;
+}
+
+.trvl-prg-mn span.trvl-prg-spup {
+	text-transform: uppercase;
+	letter-spacing: 4.5px;
+}
+
+.trvl-osnv-ft-pds span.trvl-osnv-ft-pds-spn {
+	font: 700 12px "Geograph", sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-decoration: overline;
+}
+
+.trvl-ft-avt-artcl p {
+	font: 400 12px "Geograph", sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.trvl-ft-avt-artcl .trvl-ft-avt-artcl-vd {
+	font: 700 12px "Geograph", sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.trvl-prg-mn a.trvl-prg-lnk-mn {
+	font: italic 400 20px "Fira Sans", sans-serif;
+	color: #e90606;
+}
+
+.trvl-prg-mn-ln .trvl-prg-mn-lnotd {
+	font: italic 400 20px "Fira Sans", sans-serif;
+	text-decoration: line-through;
+	line-height: 2;
+	color: hsla(252, 95%, 47%, 0.5);
+}
+
+.trvl-prg-mn .trvl-prg-mn-ln p {
+	font-style: italic;
+	text-align: right;
+}
+
+#rzdl-tv-mv {
+	font: 400 18px "PT Serif", serif;
+	color: darkslategray;
+}
+
+.tmn-nz-stt h2 {
+	font: 700 42px "Zilla Slab", serif;
+	line-height: 2;
+	word-spacing: 12px;
+}
+
+.tmn-nz-stt span.tvmn-nz-otd-itcl {
+	text-decoration: underline;
+	font: italic 400 44px "Zilla Slab", serif;
+}
+
+.tvmn-osnv-ft-pds p {
+	font: 700 13px "Century Gothic", sans-serif;
+	line-height: 2;
+	color: black;
+}
+
+.tvmn-osnv-ft-pds .tvmn-osnv-ft-pds-spnotd {
+	color: rgb(138, 138, 138);
+}
+
+span.tvmn-ft-avt-artcl-vd,
+a.tvmn-avtr-lnprf {
+	text-transform: uppercase;
+}
+
+a.tvmn-avtr-lnprf {
+	color: #e90606;
+}
+
+.tvmn-prg-mn span.tvmn-osnv-spn-otdl-lttr {
+	font: 700 72px "Zilla Slab", serif;
+	text-decoration: underline;
+	color: rgba(41, 37, 37, 0.95);
+	text-shadow: 2px 2.5px 2px rgb(218, 70, 70);
+	letter-spacing: 5px;
+}
+
+span.tvmn-prg-mn-itlc {
+	font: italic 400 18px "PT Serif", serif;
+	color: rgb(8, 3, 93);
+	text-decoration: underline;
+}
+
+.tvmn-prg-mn>p {
+	text-align: justify;
+	text-indent: 32px;
+}
+
+a.tvmn-prg-lnk-mn {
+	color: #e90606;
+}
+
+p.tvmn-prgotdl-otdlcn {
+	text-align: center;
+	color: #0616a2;
+}
+
+p.tvmn-prgotdl-otdllf {
+	text-align: left;
+	color: #8b074d;
+}
+
+p.tvmn-prgotdl-otdlrt {
+	text-align: right;
+	color: #0d5a05;
+}
+
+.tvmn-prg-mn h4 {
+	font: 700 22px "Lora", serif;
+	line-height: 3;
+	text-transform: uppercase;
+	color: #e90606;
+}
+
+.tvmn-prg-ulsmn span.tvmn-zgl-zglvul-mn {
+	text-transform: uppercase;
+}
+
+.tvmn-prg-ulsmn a {
+	color: #e90606;
+	font: 400 19px "Lora", serif;
+	line-height: 1.5;
+	text-transform: capitalize;
+}
+
+.ftr-obs-inf p {
+	color: #270b03;
+}
+
+.zgl-sx h6 {
+	font: 400 22px "Georgia", serif;
+	text-decoration: underline;
+	line-height: 2.3;
+}
+
+.rzl-ftr-svz a {
+	color: #e90606;
+}
