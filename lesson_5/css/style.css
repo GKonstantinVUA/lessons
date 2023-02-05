@@ -1,0 +1,55 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Poppins:wght@300;500;700&display=swap');
+
+body {
+	margin: 40px auto 40px auto;
+	max-width: 1240px;
+	font: 300 14px Poppins, sans-serif;
+	color: #6C757D;
+	line-height: 1.79;
+}
+
+
+.mсntn-txt,
+#mnftr-ls-fv {
+	margin: 0px auto 80px;
+	max-width: 816px;
+	text-align: justify;
+}
+
+.mcnt-img-vn,
+.mcnt-img-tw {
+	font-size: 0;
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.mcnt-img-tw .mcnt-img-tw1 {
+	margin-right: 30px;
+}
+
+.mctn-mn-abz>p {
+	padding-bottom: 40px;
+}
+
+.mсntn-txt .mcntn-mn-zgl-vn,
+.mсntn-txt .mctn-mn-zgl-tw {
+	padding-bottom: 40px;
+	font-size: 25px;
+	line-height: 1.6;
+	font-weight: 700;
+	color: #212529;
+}
+
+.mсntn-txt .mcntn-mn-zgl-vn {
+	max-width: 400px;
+}
+
+.mсntn-txt .mctn-mn-zgl-tw {
+	max-width: 605px;
+}
+
+/* #mnftr-ls-fv .test-lorem {
+	min-height: 350px;
+} */
