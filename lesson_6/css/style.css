@@ -1,0 +1,152 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+
+body {
+	font: 300 14px Poppins, sans-serif;
+	line-height: 1.78;
+	text-align: justify;
+	color: #6C757D;
+}
+
+.article_lesson {
+	padding-top: 100px;
+}
+
+[class*=_block] {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding: 0 15px;
+}
+
+.article_unit_text_one {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.article_unit_text_two {
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+
+.article_unit_text_one p,
+.article_unit_text_two p {
+	margin-bottom: 30px;
+}
+
+.article_title {
+	font-size: 25px;
+	font-weight: 700;
+	color: #212529;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	max-width: 605px;
+}
+
+.unit_image,
+.unit_images {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.unit_image {
+	margin-bottom: 80px;
+}
+
+.unit_images_one {
+	font-size: 0;
+	margin-bottom: 80px;
+}
+
+.unit_images_two {
+	font-size: 0;
+	margin-bottom: 100px;
+}
+
+.image_one {
+	margin-right: 30px;
+}
+
+.article_image {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.additions_lesson_title {
+	max-width: 1270px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 300;
+	background-color: rgb(160, 167, 164);
+	margin-bottom: 40px;
+}
+
+
+.text_border_one,
+.text_border_two,
+.text_border_three {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto 40px;
+	padding: 20px;
+}
+
+.text_border_one {
+	border-top: 3px solid rgb(9, 18, 145);
+	border-left: 3px dotted #710498;
+	border-bottom: 3px dashed #98046c;
+	border-right: 3px double #269804;
+	background-color: aqua;
+	color: black;
+}
+
+.text_border_two {
+	outline: 3px solid #b02f08;
+	background-color: rgb(255, 187, 0);
+	color: black;
+}
+
+
+.text_border_three {
+	background-color: #46d1f4;
+	outline: 3px dashed rgb(12, 12, 103);
+	color: aliceblue;
+	border-radius: 10px;
+}
+
+
+.block_circle {
+	margin: 0 auto 40px;
+	padding: 20px;
+	background-color: #6cf143;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid rgb(74, 20, 128);
+}
+
+
+.block_shadow_one,
+.block_opacity {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto 40px;
+	padding: 20px;
+}
+
+
+.block_shadow_one {
+	color: #791407;
+	background-color: rgb(68, 250, 64);
+	box-shadow: 4px 4px 5px 0.8px #a5a6a8, inset 4px 4px 5px 0.8px #727275;
+}
+
+.block_opacity {
+	background-color: darkseagreen;
+	opacity: 0.75;
+	border: 2px solid red;
+
+}
