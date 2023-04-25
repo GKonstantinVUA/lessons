@@ -108,7 +108,8 @@
 }
 
 #tail_grids {
-	background: url("../img/speaker.png") 65% 85px/ auto no-repeat, linear-gradient(127deg, rgba(244, 247, 255, 1) 0%, rgba(244, 247, 255, 1) 59%, rgba(228, 234, 251, 1) 59%, rgba(228, 234, 251, 1) 65%, rgba(216, 224, 248, 1) 65%, rgba(216, 224, 248, 1) 100%);
+	background: url("../img/speaker.png") 70% 85px/ auto no-repeat, linear-gradient(114deg, rgba(244, 247, 255, 1) 0%, rgba(244, 247, 255, 1) 62%, rgba(228, 234, 251, 1) 62%, rgba(231, 237, 255, 1) 65%, rgba(211, 221, 250, 1) 65%, rgba(239, 243, 252, 1) 100%);
+	;
 }
 
 .tail_grids_content {
