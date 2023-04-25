@@ -108,7 +108,7 @@
 }
 
 #tail_grids {
-	background: linear-gradient(127deg, rgba(244, 247, 255, 1) 0%, rgba(244, 247, 255, 1) 59%, rgba(228, 234, 251, 1) 59%, rgba(228, 234, 251, 1) 65%, rgba(216, 224, 248, 1) 65%, rgba(216, 224, 248, 1) 100%);
+	background: url("../img/speaker.png") 65% 85px/ auto no-repeat, linear-gradient(127deg, rgba(244, 247, 255, 1) 0%, rgba(244, 247, 255, 1) 59%, rgba(228, 234, 251, 1) 59%, rgba(228, 234, 251, 1) 65%, rgba(216, 224, 248, 1) 65%, rgba(216, 224, 248, 1) 100%);
 }
 
 .tail_grids_content {
@@ -118,8 +118,6 @@
 }
 
 .tail_grids_main {
-	vertical-align: middle;
-	display: inline-block;
 	max-width: 570px;
 }
 
@@ -148,7 +146,6 @@
 }
 
 .tail_grids_button {
-	display: inline-block;
 	font-weight: 600;
 	font-size: 16px;
 	background-color: #3056D3;
@@ -156,11 +153,4 @@
 	color: #FFFFFF;
 	padding: 10px 30px;
 	border-radius: 30px;
-}
-
-.tail_grids_poster {
-	display: inline-block;
-	margin-left: 179px;
-	font-size: 0;
-	vertical-align: middle;
 }
