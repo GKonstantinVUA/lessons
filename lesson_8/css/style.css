@@ -1,0 +1,293 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+
+#vence {
+	background: url("../img/unsplash.jpg") 50%/cover no-repeat;
+	font: 300 12px "Poppins", sans-serif;
+	color: #E5E5E5;
+	line-height: 1.67;
+}
+
+.vence_main {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 330px 15px 100px;
+}
+
+.vence_main_content {
+	max-width: 605px;
+}
+
+.vence_main_content>* {
+	margin-bottom: 15px;
+}
+
+.vence_main_content h1 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #F8F9FA;
+	line-height: 1.6;
+	margin-bottom: 8px;
+}
+
+.vence_main_content>*:last-child {
+	margin-bottom: 0px;
+}
+
+#unorder_list,
+#tail_girds {
+	font-family: "Inter", sans-serif;
+	color: #637381;
+}
+
+#tail_girds {
+	background: url("../img/speaker.png") 71% 85px/auto no-repeat, linear-gradient(114deg, rgba(244, 247, 255, 1) 0%, rgba(244, 247, 255, 1) 62%, rgba(228, 234, 251, 1) 62%, rgba(231, 237, 255, 1) 65%, rgba(211, 221, 250, 1) 65%, rgba(241, 245, 254, 1) 100%);
+}
+
+.tail_girds_main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 150px 15px 145px;
+}
+
+.tail_girds_content {
+	max-width: 570px;
+}
+
+.tail_girds_content>* {
+	margin-bottom: 13px;
+}
+
+[class*=_content_price] {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	color: #3056D3;
+	line-height: 1.33;
+}
+
+.tail_girds_content h2 {
+	font-weight: 700;
+	font-size: 36px;
+	color: #212B36;
+	line-height: 1.25;
+	margin-bottom: 15px;
+}
+
+.tail_girds_content .tail_girds_content_item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 27px;
+}
+
+.tail_girds_content_button {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+	background-color: #3056D3;
+	padding: 10px 30px;
+	border-radius: 30px;
+}
+
+.tail_girds_content>*:last-child {
+	margin-bottom: 0;
+}
+
+.tail_girds_content_price:hover+.tail_girds_content_price_value {
+	color: rgb(255, 89, 0);
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.tail_girds_content_price:hover+.tail_girds_content_price_value:after {
+	content: "";
+	height: 2px;
+	width: 100%;
+	display: block;
+	background-color: rgb(255, 89, 0);
+}
+
+.tail_girds_content_price:hover {
+	content: "";
+	color: #1f3da3;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-right: 3px;
+	vertical-align: bottom;
+}
+
+.tail_girds_content_price:hover::after {
+	content: ":";
+	display: inline-block;
+}
+
+.tail_girds_content_button:hover {
+	background-color: #416cfb;
+	color: rgb(212, 234, 234);
+}
+
+.tail_girds_content_button:active {
+	color: rgb(190, 254, 250);
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: #27439f;
+	padding: 9px 29px;
+	border-radius: 29px;
+}
+
+#unorder_list {
+	background: linear-gradient(253deg, rgba(220, 228, 251, 0.5970588919161415) 0%, rgba(220, 228, 251, 0.9247899843531162) 100%), url("../img/city-fog.jpg")0 0/cover fixed;
+}
+
+.unorder_list_main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 15px 50px;
+}
+
+.unorder_list_content {
+	max-width: 320px;
+}
+
+.unorder_list_content h3 {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.1;
+	color: #212B36;
+}
+
+.unorder_list_content>*:not(:last-child) {
+	margin-bottom: 47px;
+}
+
+.unorder_list_content li {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 0.9;
+	margin-left: 32px;
+}
+
+.unorder_list_content li:not(:last-child) {
+	margin-bottom: 18px;
+}
+
+.ul-elements li::before {
+	content: "";
+	display: inline-block;
+	margin-left: -32px;
+	width: 19px;
+	height: 19px;
+	margin-right: 20px;
+	vertical-align: middle;
+	transition: all 0.5s;
+}
+
+.once_list_content li::before {
+	background: url("../img/svg/list_ellipse.svg") 50%/9px 19px no-repeat;
+}
+
+.once_list_content li:hover::before {
+	transform: scale(1.5);
+}
+
+.two_list_content li::before {
+	background: url("../img/svg/list_checkmark_circle.svg") 50%/19px 19px no-repeat;
+}
+
+.two_list_content li:hover::before {
+	transform: scale(0.5);
+}
+
+.three_list_content li::before {
+	background: url("../img/svg/list_checkmark_circle2.svg") 50%/19px 19px no-repeat;
+}
+
+.three_list_content li:hover::before {
+	background: url("../img/svg/list_checkmark_circle_2.svg") 50%/19px 19px no-repeat;
+	transform: scale(1.5);
+}
+
+.four_list_content li::before {
+	background: url("../img/svg/list_cross_circle.svg") 50%/19px 19px no-repeat;
+}
+
+.four_list_content li:hover::before {
+	background: url("../img/svg/list_cross_circle_1.svg") 50%/19px 19px no-repeat;
+	transform: rotate(180deg);
+}
+
+.five_list_content li::before {
+	background: url("../img/svg/list_arrow_right.svg") 50%/19px 19px no-repeat;
+}
+
+.five_list_content li:hover::before {
+	transform: rotate(-90deg) scale(1.5);
+}
+
+.six_list_content li::before {
+	background: url("../img/svg/list_star.svg") 50%/19px 19px no-repeat;
+}
+
+.six_list_content li:hover::before {
+	background: url("../img/svg/list_star_1.svg") 50%/19px 19px no-repeat;
+	transform: scale(1.5) rotate(720deg);
+}
+
+.ul-elements li {
+	transition: all 0.5s;
+}
+
+.once_list_content li:not(:hover, :nth-child(even)) {
+	color: #860f4a;
+}
+
+.two_list_content li:hover {
+	transform: scale(1.06);
+}
+
+.three_list_content li:hover {
+	transform: scale(0.95);
+	background-color: #2BB50F;
+	color: #E5E5E5;
+}
+
+.four_list_content li:hover:nth-child(odd) {
+	background-color: #de494e;
+	color: #E5E5E5;
+}
+
+.four_list_content li:hover:nth-child(even) {
+	background-color: #23b65e;
+	color: #E5E5E5;
+}
+
+.four_list_content li:hover:nth-child(even)::before {
+	background: url("../img/svg/list_cross_circle_2.svg") 50%/19px 19px no-repeat;
+}
+
+.five_list_content li:hover:nth-child(odd) {
+	color: #d50961;
+}
+
+
+.five_list_content li:hover:nth-child(odd)::before {
+	background: url("../img/svg/list_arrow_left.svg") 50%/19px 19px no-repeat;
+}
+
+.six_list_content:hover {
+	background-color: #e89c3e;
+}
+
+.six_list_content li:hover:nth-child(3n-1)::before {
+	background-color: #71ec6f;
+}
+
+.six_list_content li:hover:nth-child(3n-1) {
+	background-color: #71ec6f;
+}
