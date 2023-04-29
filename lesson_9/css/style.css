@@ -1,0 +1,174 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Oswald:regular,500,700&display=swap");
+
+
+
+body {
+	background: url("../img/pattern_2.webp") 0 0/contain fixed repeat;
+	font: 500 16px "Inter Tight", sans-serif;
+	color: rgb(76, 79, 79);
+	white-space: normal;
+	line-height: 1.5;
+}
+
+#title_lesson {
+	background: url("../img/pattern_1.webp") 0 0/contain repeat, linear-gradient(228deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(239, 200, 177, 1) 48%, rgba(194, 167, 151, 1) 62%, rgba(228, 214, 209, 1) 63%, rgba(219, 212, 208, 1) 65%, rgba(141, 123, 118, 1) 100%);
+}
+
+#substrate_lesson {
+	background: url("../img/pattern_1.webp") 0 0/contain repeat, linear-gradient(0deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(219, 212, 208, 1) 48%, rgba(228, 214, 209, 1) 63%, rgba(194, 167, 151, 1) 100%, rgba(141, 123, 118, 1) 100%);
+}
+
+.name_lesson,
+.link_lesson {
+	display: inline-block;
+	max-width: 700px;
+}
+
+.title_lesson_content {
+	margin-bottom: 50px;
+}
+
+.name_lesson {
+	padding: 50px 210px;
+	text-align: center;
+	font: 700 22px "Roboto", sans-serif;
+	line-height: 1.7;
+}
+
+.name_lesson :not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.name_lesson p {
+	font: 400 20px "Oswald", sans-serif;
+}
+
+.link_lesson>* {
+	margin-right: 50px;
+}
+
+.link_lesson {
+	margin-left: 450px;
+	padding: 74px 15px 0;
+	vertical-align: top;
+}
+
+.link_lesson>*:last-child {
+	margin-right: 0;
+}
+
+#one_content_block {
+	background: url("../img/background_block_icon.webp") 0 0/cover no-repeat;
+}
+
+#two_content_block {
+	background: url("../img/background_block_elements.webp") 0 0/cover no-repeat;
+}
+
+#three_content_block {
+	background: url("../img/background_block_content.webp") 0 0/cover no-repeat;
+}
+
+
+#one_content_block,
+#two_content_block,
+#three_content_block {
+	max-width: 1530px;
+	margin: 0 auto 50px;
+	padding: 40px 30px;
+}
+
+#one_content_block h2,
+#two_content_block h2,
+#three_content_block h2 {
+	margin-bottom: 40px;
+	font: 700 23px "Oswald", sans-serif;
+	line-height: 0.9;
+	text-align: right;
+}
+
+.indent_icon_block,
+.indent_elements_block,
+.indent_items_block {
+	font: 400 18px "Oswald", sans-serif;
+	padding-left: 30px;
+	line-height: 1.1;
+}
+
+.indent_icon_block span,
+.indent_elements_block span,
+.indent_items_block span {
+	font-weight: 700;
+}
+
+
+.content_icon_block,
+.content_elements_block,
+.content_items_block {
+	font-size: 0;
+}
+
+[class*=_icons_content_block] img:not(:last-child),
+[class*=_elements_content_block] img:not(:last-child),
+[class*=_items_content_block] img:not(:last-child) {
+	padding: 0 15px 15px;
+}
+
+[class*=_icon_block]:not(:last-child),
+[class*=_elements_block]:not(:last-child),
+[class*=_items_block]:not(:last-child) {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+[class*=icons_content_block]:not(:last-child),
+[class*=elements_content_block]:not(:last-child),
+[class*=items_content_block]:not(:last-child) {
+	margin-bottom: 22px;
+}
+
+.text_icon_block p:not(:last-child),
+.text_elements_block p:not(:last-child),
+.text_items_block p:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.link_lesson a:hover {
+	color: rgb(74, 62, 59);
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+#substrate_lesson {
+	background-color: #8D7B76;
+	padding: 40px 0;
+}
+
+.pointer_icon,
+.indent_icon_block,
+.pointer_elements,
+.indent_elements_block,
+.pointer_items,
+.indent_items_block {
+	display: inline-block;
+}
+
+.pointer_icon,
+.pointer_items,
+.pointer_elements {
+	vertical-align: top;
+}
+
+.indent_icon_block,
+.indent_elements_block,
+.indent_items_block {
+	padding-top: 5px;
+	display: none;
+}
+
+.indent_icon_block:target,
+.indent_elements_block:target,
+.indent_items_block:target {
+	display: inline-block;
+}
