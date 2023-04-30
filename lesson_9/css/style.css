@@ -22,6 +22,14 @@ body {
 	padding: 50px 0;
 }
 
+#substrate_lesson:hover {
+	background:
+		repeating-linear-gradient(rgb(252, 245, 243), rgb(252, 245, 243) 10px, rgb(142, 127, 131) 10px, rgb(142, 127, 131) 15px, rgb(252, 245, 243) 15px, rgb(252, 245, 243) 20px, rgb(142, 127, 131) 15px, rgb(142, 127, 131) 40px, rgb(252, 245, 243) 40px, rgb(252, 245, 243) 45px, rgb(142, 127, 131) 45px, rgb(142, 127, 131) 50px, rgb(252, 245, 243) 50px, rgb(252, 245, 243) 80px),
+		repeating-linear-gradient(90deg, rgb(252, 245, 243), rgb(252, 245, 243) 10px, rgb(142, 127, 131) 10px, rgb(142, 127, 131) 15px, rgb(252, 245, 243) 15px, rgb(252, 245, 243) 20px, rgb(142, 127, 131) 15px, rgb(142, 127, 131) 40px, rgb(252, 245, 243) 40px, rgb(252, 245, 243) 45px, rgb(142, 127, 131) 45px, rgb(142, 127, 131) 50px, rgb(252, 245, 243) 50px, rgb(252, 245, 243) 80px);
+	background-size: 38px 38px;
+	background-blend-mode: multiply;
+}
+
 .name_lesson,
 .link_lesson {
 	display: inline-block;
