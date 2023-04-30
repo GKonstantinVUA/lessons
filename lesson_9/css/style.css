@@ -1,8 +1,6 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Oswald:regular,500,700&display=swap");
 
-
-
 body {
 	background: url("../img/pattern_2.svg") 0 0/354px 354px fixed repeat;
 	font: 500 16px "Inter Tight", sans-serif;
@@ -16,7 +14,12 @@ body {
 }
 
 #substrate_lesson {
-	background: url("../img/pattern_3.svg") 0 0/300px 300px repeat, linear-gradient(0deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(219, 212, 208, 1) 48%, rgba(228, 214, 209, 1) 63%, rgba(194, 167, 151, 1) 100%, rgba(141, 123, 118, 1) 100%);
+	background: repeating-linear-gradient(-45deg, rgba(224, 210, 213, 1), rgba(224, 210, 213, 1) 25%, rgba(121, 89, 96, 1) 0, rgba(121, 89, 96, 1) 50%),
+		repeating-linear-gradient(45deg, rgba(224, 210, 213, 1), rgba(224, 210, 213, 1) 25%, rgba(197, 169, 163, 1) 0, rgba(197, 169, 163, 1) 50%),
+		wheat;
+	background-size: 20px 20px;
+	background-blend-mode: multiply;
+	padding: 50px 0;
 }
 
 .name_lesson,
@@ -70,7 +73,6 @@ body {
 	background: url("../img/background_block_content.webp") 0 0/cover no-repeat;
 }
 
-
 #one_content_block,
 #two_content_block,
 #three_content_block {
@@ -101,7 +103,6 @@ body {
 .indent_items_block span {
 	font-weight: 700;
 }
-
 
 .content_icon_block,
 .content_elements_block,
@@ -140,9 +141,10 @@ body {
 	text-decoration: underline;
 }
 
-#substrate_lesson {
-	background-color: #8D7B76;
-	padding: 40px 0;
+.pointer_icon,
+.pointer_items,
+.pointer_elements {
+	vertical-align: top;
 }
 
 .pointer_icon,
@@ -154,21 +156,20 @@ body {
 	display: inline-block;
 }
 
-.pointer_icon,
-.pointer_items,
-.pointer_elements {
-	vertical-align: top;
-}
 
 .indent_icon_block,
 .indent_elements_block,
 .indent_items_block {
 	padding-top: 5px;
-	display: none;
+	visibility: hidden;
 }
 
-.indent_icon_block:target,
-.indent_elements_block:target,
-.indent_items_block:target {
-	display: inline-block;
+.text_items_block:hover .indent_items_block,
+.text_elements_block:hover .indent_elements_block,
+.text_icon_block:hover .indent_icon_block {
+	visibility: visible;
+}
+
+.pointer_items {
+	cursor: pointer;
 }
