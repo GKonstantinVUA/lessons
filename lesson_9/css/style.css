@@ -4,7 +4,7 @@
 
 
 body {
-	background: url("../img/pattern_2.webp") 0 0/contain fixed repeat;
+	background: url("../img/pattern_2.svg") 0 0/354px 354px fixed repeat;
 	font: 500 16px "Inter Tight", sans-serif;
 	color: rgb(76, 79, 79);
 	white-space: normal;
@@ -12,11 +12,11 @@ body {
 }
 
 #title_lesson {
-	background: url("../img/pattern_1.webp") 0 0/contain repeat, linear-gradient(228deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(239, 200, 177, 1) 48%, rgba(194, 167, 151, 1) 62%, rgba(228, 214, 209, 1) 63%, rgba(219, 212, 208, 1) 65%, rgba(141, 123, 118, 1) 100%);
+	background: url("../img/pattern_1.webp") 0 0/288px 288px repeat, linear-gradient(228deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(239, 200, 177, 1) 48%, rgba(194, 167, 151, 1) 62%, rgba(228, 214, 209, 1) 63%, rgba(219, 212, 208, 1) 65%, rgba(141, 123, 118, 1) 100%);
 }
 
 #substrate_lesson {
-	background: url("../img/pattern_1.webp") 0 0/contain repeat, linear-gradient(0deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(219, 212, 208, 1) 48%, rgba(228, 214, 209, 1) 63%, rgba(194, 167, 151, 1) 100%, rgba(141, 123, 118, 1) 100%);
+	background: url("../img/pattern_3.svg") 0 0/300px 300px repeat, linear-gradient(0deg, rgba(249, 245, 242, 1) 0%, rgba(249, 245, 242, 1) 7%, rgba(219, 212, 208, 1) 48%, rgba(228, 214, 209, 1) 63%, rgba(194, 167, 151, 1) 100%, rgba(141, 123, 118, 1) 100%);
 }
 
 .name_lesson,
