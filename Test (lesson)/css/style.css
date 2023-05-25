@@ -1,28 +1,10 @@
 @import url("reset.css");
 
 @font-face {
-	font-family: 'Bebas Neue Regular';
-	src: url('../fonts/BebasNeueRegular.woff2') format('woff2'),
-		url('../fonts/BebasNeueRegular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
 	font-family: 'Bebas Neue';
 	src: url('../fonts/BebasNeueBold.woff2') format('woff2'),
 		url('../fonts/BebasNeueBold.woff') format('woff');
 	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Drina';
-	src: url('../fonts/Drina.woff2') format('woff2'),
-		url('../fonts/Drina.woff') format('woff');
-	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
@@ -45,267 +27,74 @@
 	font-display: swap;
 }
 
-body {
-	background: url("..//img/background.webp") 0 0/150px 150px repeat;
-}
-
 .wrapper {
 	overflow: clip;
 	min-height: 100%;
 }
 
-.header_block {
-	margin-bottom: 30px;
+body {
+	position: relative;
+	z-index: 1;
 }
 
-.lesson_container {
-	max-width: 1230px;
-	padding: 0 15px;
-	margin: 0 auto;
-	background-color: #f3d8c0;
-}
-
-.transform_block {
-	max-width: 900px;
-	margin: 0 auto;
-}
-
-.task_box {
+.area_task {
 	position: relative;
 	background: url("../img/substrate.webp") 0 0/250px 250px no-repeat;
 	width: 250px;
 	height: 250px;
-}
-
-.box-transform {
-	display: inline-block;
-}
-
-h1 {
-	font: 700 35px 'Bebas Neue', sans-serif;
-	text-align: center;
-	margin-bottom: 40px;
-	padding-top: 25px;
-}
-
-[class*="_fon-item"] {
-	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.body_transform {
 	font-size: 0;
 }
 
-.hexagonal_version-one {
-	margin-top: 33px;
-	position: absolute;
-	height: 99px;
-	left: 25%;
-	top: 25%;
-	z-index: 1;
+.box_type-two {
+	margin: 50px;
 }
 
-.up-item,
-.down-item {
-	width: 112px;
-	height: 33px;
-	background: #ce5a57;
+.subtitle-visibility-front {
+	font: 700 33px 'Parkson', sans-serif;
+	position: absolute;
+	text-transform: uppercase;
+	color: rgb(9, 15, 124);
+	left: 82px;
+	top: 96px;
+	line-height: 1;
+	text-align: center;
 }
 
-.up-item::before {
-	content: '';
+.subtitle-visibility-back {
+	font: 700 33px 'Parkson', sans-serif;
 	position: absolute;
-	top: -32px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 56px solid transparent;
-	border-right: 56px solid transparent;
-	border-bottom: 32px solid #ce5a57;
+	text-transform: uppercase;
+	color: rgb(148, 13, 13);
+	left: 82px;
+	top: 96px;
+	line-height: 1;
+	text-align: center;
+}
+
+.subtitle-visibility-front {
 	z-index: 2;
+	background-color: #77608d;
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
 }
 
-.down-item::after {
-	content: '';
-	position: absolute;
-	top: 66px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 56px solid transparent;
-	border-right: 56px solid transparent;
-	border-top: 32px solid #ce5a57;
-	z-index: 2;
+.subtitle-visibility-back:hover {
+	transform: rotateY(-180deg);
+	background-color: rgba(121, 79, 69, 0.5);
 }
 
-.subtitle-up {
-	position: absolute;
-	top: 15px;
-	left: 5px;
-	z-index: 3;
+.task-visibility:hover {
+	transform: rotateY(-180deg);
 }
 
-.subtitle-down {
-	position: absolute;
-	top: 32px;
-	left: 5px;
-	z-index: 3;
-}
-
-.trapezoid-up {
-	width: 132px;
-	border-left: 32px solid transparent;
-	border-right: 32px solid transparent;
-	border-bottom: 57px solid #78a5a3;
-}
-
-.trapezoid-down {
-	width: 132px;
-	border-left: 32px solid transparent;
-	border-right: 32px solid transparent;
-	border-top: 57px solid #78a5a3;
-}
-
-.hexagonal_version-two {
-	position: absolute;
-	transform: rotate(270deg);
-	width: 114px;
-	height: 130px;
-	margin: 11px 0 0 8px;
-	left: 25%;
-	top: 25%;
-}
-
-.hexagonal_version-three {
-	display: inline-block;
-	position: absolute;
-	left: 25%;
-	top: 25%;
-	z-index: 2;
-}
-
-.subtitle-scale {
-	font: 700 48px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 33%;
-	top: 43%;
-	z-index: 3;
-}
-
-.subtitle-skew {
-	font: 700 48px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 33%;
-	top: 43%;
-	z-index: 3;
-}
-
-.subtitle-matrix {
-	font: 700 48px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 30%;
-	top: 43%;
-	z-index: 3;
-}
-
-.subtitle-origin {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 28%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
-
-}
-
-.subtitle-perspective {
-	font: 700 20px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 27%;
-	top: 39%;
-	line-height: 1.4;
-	text-align: center;
-	z-index: 3;
-}
-
-.subtitle-translate3d {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 29%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
-}
-
-.subtitle-scale3d {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 37%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
-}
-
-.subtitle-rotate3d {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 36%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
-}
-
-.subtitle-matrix3d {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 35%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
-}
-
-.subtitle-style {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 27%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
-}
-
-.subtitle-visibility {
-	font: 700 33px 'Parkson', sans-serif;
-	position: absolute;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	left: 31%;
-	top: 39%;
-	line-height: 1;
-	text-align: center;
-	z-index: 3;
+.task-visibility,
+.task-visibility-back,
+.task-visibility-front,
+.task_box-visibility {
+	transition: all 2s ease 0.1ms;
 }
