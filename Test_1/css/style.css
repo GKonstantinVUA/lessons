@@ -226,9 +226,15 @@ h1 {
 .task__hexagonal-three {
 	display: inline-block;
 	position: absolute;
-	left: 60px;
+	left: 59px;
 	top: 69px;
 	z-index: 2;
+}
+
+.hexagonal-visibility-front {
+	position: absolute;
+	left: 60px;
+	top: 69px;
 }
 
 .subtitle-skew {
@@ -342,7 +348,7 @@ h1 {
 	position: absolute;
 	text-transform: uppercase;
 	color: #ffffff;
-	left: 82px;
+	left: 84px;
 	top: 96px;
 	line-height: 1;
 }
@@ -352,7 +358,7 @@ h1 {
 	position: absolute;
 	text-transform: uppercase;
 	color: #ffffff;
-	left: 102px;
+	left: 104px;
 	top: 108px;
 	line-height: 1;
 	text-align: center;
@@ -487,13 +493,13 @@ h1 {
 }
 
 .hexagonal-visibility-front {
-	z-index: 1;
+	z-index: 3;
 	transform: rotateY(0deg);
 	backface-visibility: hidden;
 }
 
 .subtitle-visibility-front {
-	z-index: 2;
+	z-index: 4;
 	transform: rotateY(0deg);
 	backface-visibility: hidden;
 }
@@ -503,12 +509,12 @@ h1 {
 }
 
 .hexagonal-visibility-back {
-	z-index: 3;
+	z-index: 2;
 	transform: rotateY(-180deg);
 }
 
 .subtitle-visibility-back {
-	z-index: 4;
+	z-index: 3;
 	transform: rotateY(-180deg);
 }
 
