@@ -69,6 +69,22 @@ body {
 	margin: 0 auto;
 }
 
+.body_transform:not(:last-child) {
+	margin-bottom: 80px;
+}
+
+.bonus_container {
+	max-width: 1500px;
+	margin: 0 auto;
+	/* position: relative; */
+}
+
+.bonus-title_main {
+	margin-bottom: 40px;
+	font: 700 55px 'Bebas Neue', sans-serif;
+	text-align: center;
+}
+
 .area_task {
 	position: relative;
 	background: url("../img/substrate.webp") 0 0/250px 250px no-repeat;
@@ -572,4 +588,118 @@ h1 {
 .subtitle-origin,
 .hexagonal-origin {
 	transition: all 2s ease 0.1ms;
+}
+
+.fon-background {
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 250px;
+}
+
+.bonus-lesson {
+	position: relative;
+}
+
+.practic_block {
+	position: absolute;
+	top: 46px;
+	left: 302px;
+	width: 900px;
+	height: 700px;
+	border: 20px solid rgba(255, 255, 255, 0.2);
+	transform-style: preserve-3d;
+	perspective: 1200px;
+	perspective-origin: center;
+}
+
+.img-action:hover {
+	transform: scale(1.3);
+}
+
+
+.home_section,
+.about_section {
+	backface-visibility: hidden;
+}
+
+.home_section {
+	z-index: 2;
+	transform: rotateX(0deg);
+}
+
+.about_section {
+	transform: rotateX(-180deg);
+}
+
+.practic_block:target {
+	transform: rotateX(180deg);
+}
+
+.home_section,
+.about_section {
+	background: rgba(40, 64, 96, 0.22);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+}
+
+.img-action {
+	position: absolute;
+	top: 35px;
+	left: 55px;
+}
+
+.block-text {
+	padding: 100px 15px 0 15px;
+	text-align: justify;
+}
+
+.title-main:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.text-block:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.title-main {
+	font: 700 50px "Open Sans", sans-serif;
+	color: azure;
+}
+
+.text-block {
+	font: 500 22px "Playfair", sans-serif;
+	color: aliceblue;
+}
+
+.text-block_frame {
+	font-size: 30px;
+	color: rgb(253, 161, 161);
+	text-align: center;
+}
+
+.home_section,
+.practic_block,
+.about_section,
+.bonus-lesson,
+.img-action {
+	transition: all 1s ease 0s;
+}
+
+.footer_block {
+	background: url("../img/footer.webp") 0 0/cover no-repeat;
+	padding: 40px 0 40px 0;
+}
+
+.header-block {
+	background: url("../img/header.webp") 0 0/cover no-repeat;
+	padding: 130px 0 130px 0;
+}
+
+.header-logo {
+	padding: 30px 0 30px 0;
 }
