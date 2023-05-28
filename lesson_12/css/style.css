@@ -27,6 +27,8 @@
 	font-display: swap;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+
 .wrapper {
 	overflow: clip;
 	min-height: 100%;
@@ -667,8 +669,8 @@ h1 {
 
 .practic_block {
 	position: absolute;
-	top: 22px;
-	left: 280px;
+	top: 24px;
+	left: 530px;
 	width: 440px;
 	height: 600px;
 	border: 20px solid rgba(255, 255, 255, 0.2);
@@ -725,12 +727,12 @@ h1 {
 }
 
 .title-main {
-	font: 700 20px "Open Sans", sans-serif;
+	font: 700 20px "Bebas Neue", sans-serif;
 	color: azure;
 }
 
 .text-block {
-	font: 500 13px "Playfair", sans-serif;
+	font: 400 14px "Poppins", sans-serif;
 	color: aliceblue;
 }
 
